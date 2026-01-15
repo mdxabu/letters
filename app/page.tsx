@@ -86,12 +86,22 @@ export default function Home() {
               </div>
             </form>
 
-            <div className="mt-12 pt-8 border-t border-gray-200">
+            <div className="mt-12 pt-8 border-t border-gray-200 space-y-4">
               <p className="text-sm text-gray-500 font-light text-center max-w-2xl mx-auto leading-relaxed">
                 This space offers comfort and companionship through words. It is
                 not a replacement for professional mental health support. If you
                 are in crisis, please reach out to a crisis helpline or mental
                 health professional in your area.
+              </p>
+              <p className="text-sm text-gray-400 font-light text-center">
+                <a
+                  href="https://github.com/mdxabu/letters"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-gray-600 transition-colors underline"
+                >
+                  View on GitHub
+                </a>
               </p>
             </div>
           </div>
@@ -125,12 +135,22 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-12 pt-8 border-t border-gray-200">
+            <div className="mt-12 pt-8 border-t border-gray-200 space-y-4">
               <p className="text-sm text-gray-500 font-light text-center max-w-2xl mx-auto leading-relaxed">
                 Remember: This is a moment of comfort, not a replacement for
                 professional help. If you are struggling, please consider
                 reaching out to a mental health professional or crisis support
                 service.
+              </p>
+              <p className="text-sm text-gray-400 font-light text-center">
+                <a
+                  href="https://github.com/mdxabu/letters"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-gray-600 transition-colors underline"
+                >
+                  View on GitHub
+                </a>
               </p>
             </div>
           </div>
