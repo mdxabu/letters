@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Letters - A Safe Space for Your Thoughts
+
+A minimal, privacy-first web application where anyone can anonymously express their thoughts and receive a warm, compassionate letter in return.
+
+## About
+
+Many people experience emotional stress, intrusive thoughts, or moments of deep loneliness, yet hesitate to share their feelings due to fear of judgment, lack of privacy, or the burden of explaining themselves. Letters provides a safe, anonymous space where you can express what's on your mind and receive a comforting response.
+
+### Key Features
+
+- **Complete Privacy**: No accounts, no sign-ups, no data storage
+- **Anonymous**: Share your thoughts without revealing your identity
+- **Compassionate Response**: Receive one of 50 handcrafted letters from "Someone who believes you matter"
+- **No Permanence**: Your input is deleted immediately - nothing is saved or logged
+- **Beautiful Design**: Clean, elegant white theme with calming typography
+- **Single Page**: Simple, focused experience without distractions
+
+## How It Works
+
+1. Visit the website
+2. Share your thoughts in the text area
+3. Submit your message
+4. Receive a randomly selected compassionate letter
+5. Your input is automatically deleted - no trace remains
+
+
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+ installed
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/mdxabu/letters.git
+cd letters
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Important Notes
 
-To learn more about Next.js, take a look at the following resources:
+### This is NOT Professional Help
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This application is designed to provide comfort and emotional support through compassionate words. It is **NOT** a replacement for professional mental health care. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Customization
 
-## Deploy on Vercel
+### Adding More Letters
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Edit `data/letters.json` to add, remove, or modify letters. Each letter should follow this format, and raise a PR with feel-good letters.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```json
+{
+  "id": 1,
+  "content": "Dear Unknown,\n\nYour letter content here...\n\nWith care,\nSomeone who believes you matter"
+}
+```
+
+
+
+## License
+
+This project is open source and available for anyone who wants to create a safe space for emotional expression.
+
+This project is Unlicensed.
+
+## Credits
+
+Created with compassion for anyone who needs a moment of understanding and kindness.
+
+---
+
+**Remember**: You matter. Your feelings are valid. You deserve compassion and support.
