@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Crimson_Pro, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const crimsonPro = Crimson_Pro({
@@ -31,6 +32,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${crimsonPro.variable} ${inter.variable} antialiased`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
