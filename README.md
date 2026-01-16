@@ -66,7 +66,7 @@ Edit `data/letters.json` to add, remove, or modify letters. Each letter should f
 ```json
 {
   "id": 1,
-  "content": "Dear Unknown,\n\nYour letter content here...\n\nWith care,\nSomeone who believes you matter"
+  "content": "Hello Stranger,\n\nYour letter content here...\n\nWith care,\nSomeone who believes you matter"
 }
 ```
 
